@@ -62,6 +62,7 @@ while n < 500:
 
     sleep(1)
     touch((600,1120))
+    sleep(3)
 
 
 
