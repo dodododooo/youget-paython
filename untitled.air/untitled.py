@@ -8,8 +8,8 @@ auto_setup(__file__)
 
 conn = pymysql.connect(host='127.0.0.1', port=3306, db='youget', user='root', password='123')
 
-wake()
-sleep(3)
+# wake()
+# sleep(3)
 keyevent("HOME")
 touch(Template(r"tpl1627741942370.png", record_pos=(-0.361, -0.662), resolution=(720, 1280)))
 
